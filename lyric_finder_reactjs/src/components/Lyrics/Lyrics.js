@@ -45,16 +45,16 @@ class Lyrics extends Component{
     }else{
       return (
         <React.Fragment>
-          <Link to={"/"} className="btn btn-dark btn-sm mb-4 p-3" style={{backgroundColor: "#8D9440"}}>Go Back</Link>
-          <div className="card" >
+          <Link to={"/"} className="btn btn-dark btn-sm mb-4 p-3" style={{backgroundColor: "#8D9440", fontFamily:"Oxygen", fontSize:16, borderRadius:5}}>Go Back</Link>
+          <div className="card" style={{backgroundColor: "#264E36"}}>
             <h5 className="card-header text-light text-truncate">
-              {track.track_name} ~ <span className="text-muted">{track.artist_name} </span>
+              {track.track_name} ~ <span  style={{color: "#F0EDE5"}}>{track.artist_name} </span>
             </h5>
-            <div className="card-body">
-              <p >
+            <div className="card-body" style={{backgroundColor: "#e8f5e9"}}>
+              <p style={{color:"#264E36"}}>
                 {lyrics.lyrics_body}
               </p>
-              <ul className="list-group mt-3">
+              <ul className="list-group mt-3" style={{color:"#264E36"}}>
                 <li className="list-group-item">
                   <strong>Genre: </strong> <span className="text-muted">{track.primary_genres.music_genre_list[0] ? track.primary_genres.music_genre_list[0].music_genre.music_genre_name : `Unknown`}</span>
                 </li>

@@ -13,8 +13,8 @@ const Track = (props)=>{
             <br/>
             <strong><i className="fas fa-compact-disc"></i></strong>
           </p>
-          <Link to={`lyrics/track/${track.track_id}`} className="btn btn-dark btn-block" style={{backgroundColor: "#8D9440"}}>
-            <i className="fas fa-chevron-right"></i> View Lyrics:
+          <Link to={`lyrics/track/${track.track_id}`} className="btn btn-block p-2" style={style.buttonStyle}>
+            <i className="fas fa-chevron-right"></i> View Lyrics
           </Link>
         </div>
       </div>
@@ -23,3 +23,15 @@ const Track = (props)=>{
 }
 
 export default Track
+
+const style= {
+  buttonStyle:{  
+    borderColor: "#00A591",
+    color:"#264E36",
+    borderWidth: 3,
+    fontSize: 18,
+    fontWeight: '600',
+    fontFamily: "Anton",
+    borderRadius: 5,
+  }
+}

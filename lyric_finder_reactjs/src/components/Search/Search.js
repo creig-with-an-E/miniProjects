@@ -36,11 +36,11 @@ class Search extends Component{
               const {dispatch} = value
               //getting the global state from context.js
               return(
-                <div className="card card-body mb-4 p-4">
+                <div className="card card-body mb-4 p-4 shadow-lg border rounded">
                   <h1 className="h4 text-center"><i className="fas fa-music"> </i> Find Song</h1>
                   <p className="text-lead">Get song lyrics for any song</p>
                   {/* binding it to the current context */}
-                  <form className="form-group" onSubmit={this.submitHandler.bind(this, dispatch)}>
+                  <form className="form-group " onSubmit={this.submitHandler.bind(this, dispatch)}>
                     <input type="text" className="form-control form-control-lg"
                       placeholder="Enter song title"
                       name="trackTitle"
@@ -49,7 +49,7 @@ class Search extends Component{
                       onChange={this.onChangeTextHandler}
                     />
                     <button type="submit"
-                      className="btn btn-lg btn-primary btn-block mt-2"> Find Now</button>
+                      className="btn btn-lg text-white btn-block mt-2 border-2" style={{ backgroundColor: "#264E36"}}> Find Now</button>
                   </form>
                 </div>
               )
