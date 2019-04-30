@@ -9,3 +9,6 @@ This is a sample application, written in React.js 16 and BootStrap 4.
 
 ### Starting Application
 - application can be run using <code> npm start</code> within the application's root directory
+
+### Hosting
+App is hosted on the following url (forgottenwords.herokuapp.com)[https://forgottenwords.herokuapp.com/]
