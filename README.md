@@ -1,11 +1,11 @@
-## Description:
+## Description
 
-This repo is for side application and new technology sample projects.
+This is a sample application, written in React.js 16 and BootStrap 4.
 
-### Summary:
-*projects currently written in following Technologies*
-- <code>React.js</code>
-- <code>BootStrap4</code>
+### Project Summary
+- uses [music match](https://developer.musixmatch.com/documentation/) api
+- used to fetch Song lyrics. only able to get 30% of the lyrics as this is what is allowed with the free tier
 
-### Hosteding:
 
+### Starting Application
+- application can be run using <code> npm start</code> within the application's root directory
