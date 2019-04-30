@@ -1,11 +1,11 @@
 ## Description:
 
-This repo is for side application and new technology sample projects.
+This repo is for side application and new technology sample projects. The code is housed in relevant branches.
 
-### Summary:
-*projects currently written in following Technologies*
-- <code>React.js</code>
-- <code>BootStrap4</code>
+### Projects
+1. Lyric App: User is able to search the lyrics for their favourite song
+    - application written with React.js
+    - (View Code)[/lyricApp]
+    - (View App)[https://forgottenwords.herokuapp.com]
 
-### Hosteding:
-
+2.
