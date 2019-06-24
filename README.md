@@ -1,11 +1,12 @@
-## Description:
+## Description
 
-This repo is for side application and new technology sample projects. The code is housed in relevant branches.
+This is a sample application, written in React.js 16 and BootStrap 4.
 
-### Projects
-1. Lyric App: User is able to search the lyrics for their favourite song
-    - application written with React.js
-    - [View Code](https://github.com/creigPhiri/miniProjects/tree/lyricApp)
-    - [View App](https://forgottenwords.herokuapp.com)
+### Project Summary
+- uses [music match](https://developer.musixmatch.com/documentation/) api
 
-2.
+#### Take note application only returns 30% of song lyrics. which as part of apu licence agreement (free tier)
+
+
+### Starting Application
+- application can be run using <code> npm start</code> within the application's root directory
