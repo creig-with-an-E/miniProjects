@@ -27,12 +27,13 @@ export default Track
 
 const style= {
   buttonStyle:{  
-    borderColor: "#00A591",
-    color:"#264E36",
+    // borderColor: "#00A591",
+    color:"#EF233C",
     borderWidth: 3,
     fontSize: 18,
     fontWeight: '600',
     fontFamily: "Anton",
     borderRadius: 5,
+    backgroundColor:"#EDF2F4"
   }
 }
