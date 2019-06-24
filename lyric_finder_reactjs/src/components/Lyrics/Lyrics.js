@@ -66,6 +66,7 @@ class Lyrics extends Component{
                 </li>
               </ul>
             </div>
+            <p className="m-3" style={{fontFamily:"Oswald", fontSize:20, color:"#D90429"}}>Please note this is a free app, and only 30% of the lyrics are available based on licence</p>
           </div>
         </React.Fragment>
       )
