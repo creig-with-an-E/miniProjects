@@ -11,9 +11,9 @@ function App() {
   return (
     <Provider>
       <Router>
-        <React.Fragment>
+        <React.Fragment >
           <Navbar />
-            <div className="container">
+            <div className="container" >
               <Switch>
                 <Route exact path={"/"} component={Index} />
                 <Route exact path={"/lyrics/track/:id"} component={Lyrics} />

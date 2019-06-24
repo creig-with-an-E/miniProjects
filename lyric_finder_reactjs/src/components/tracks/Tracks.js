@@ -16,7 +16,7 @@ class Tracks extends Component{
                return (
                  <React.Fragment>
                    <h3 className="text-center mb4"> {heading}</h3>
-                   <div className="row">
+                   <div className="row d-flex justify-content-center">
                      {track_list.map(item =>(
                          <Track key={item.track.track_id} track={item.track}/>
                      ))}
